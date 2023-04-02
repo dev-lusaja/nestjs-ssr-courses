@@ -1,0 +1,140 @@
+.card-course-pointer {
+  cursor: pointer;
+}
+
+.card-course {
+  height: 100%;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 3px 1px rgba(0,0,0,.15), 0 1px 13px rgba(0,0,0,.05);
+  background: #fff;
+}
+
+.card-course-image {
+  height: 142px;
+}
+
+.card-lazy-load-image-background-blur {
+  filter: blur(0);
+  transition: filter .3s;
+  color: transparent;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.card-course-image>span {
+  height: inherit;
+}
+
+.card-course-image>span>img{
+  width: 100%;
+  height: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.card-course-container {
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 44px;
+  height: calc(100% - 142px);
+}
+
+.card-course-information {
+  display: grid;
+  grid-template-areas:
+      "title"
+      "subtitle";
+  text-align: center;
+}
+
+.card-course-title {
+  grid-area: title;
+}
+
+.card-course-title>h3 {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.card-course-period {
+  grid-area: subtitle;
+  color: #bcbcbc;
+}
+
+.card-course-period>p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.card-course-description {
+  position: relative;
+  width: 100%;
+}
+
+.card-course-text {
+  text-align: center;
+  height: 72px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.card-course-text>p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.card-course-button {
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  opacity: 0;
+  background: #fff;
+  transition: all .2s ease-in;
+  width: 100%;
+  height: 100%;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .25s ease;
+  width: 100%;
+  height: 50px!important;
+  overflow: hidden;
+}
+
+.card-button-black {
+  width: 100%;
+  height: 48px;
+}
+
+.card-course:hover .card-course-container {
+  position: relative;
+  width: 100%;
+}
+
+.card-course:hover .card-course-button {
+  opacity: 1;
+  bottom: 0;
+}
+
+.card-course:hover .card-button-black {
+  background: #000;
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+import * as React from 'react'
+
+const Header = () => {
+    return (
+        <header class="header-Wrapper"><div class="header header-checkout"><div class="header__links"><ul class="header__links_navbar"><div class="trigger"><span class="regular regular-6 font-normal">Programas</span><svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3207 0.590027L6.73071 5.17003L2.14071 0.590027L0.730713 2.00003L6.73071 8.00003L12.7307 2.00003L11.3207 0.590027Z" fill="black"></path></svg></div><a href="https://web.crackthecode.la/empresas-ctc" target="_blank" class="header__links_navbar_link"><li>Empresas</li></a><div class="trigger"><span class="regular regular-6 font-normal">Nosotros</span><svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3207 0.590027L6.73071 5.17003L2.14071 0.590027L0.730713 2.00003L6.73071 8.00003L12.7307 2.00003L11.3207 0.590027Z" fill="black"></path></svg></div></ul></div><ul class="header__access"><li class="header__access_link choose_country"><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 4.49992C7.85778 4.49992 4.49992 7.85778 4.49992 11.9999C4.49992 16.1421 7.85778 19.4999 11.9999 19.4999C16.1421 19.4999 19.4999 16.1421 19.4999 11.9999C19.4999 7.85778 16.1421 4.49992 11.9999 4.49992ZM2.83325 11.9999C2.83325 6.93731 6.93731 2.83325 11.9999 2.83325C17.0625 2.83325 21.1666 6.93731 21.1666 11.9999C21.1666 17.0625 17.0625 21.1666 11.9999 21.1666C6.93731 21.1666 2.83325 17.0625 2.83325 11.9999Z" fill="black"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M2.83325 11.9999C2.83325 11.4937 3.20635 11.0833 3.66659 11.0833H20.3333C20.7935 11.0833 21.1666 11.4937 21.1666 11.9999C21.1666 12.5062 20.7935 12.9166 20.3333 12.9166H3.66659C3.20635 12.9166 2.83325 12.5062 2.83325 11.9999Z" fill="black"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M9.25029 11.8622C9.31312 14.4631 10.2825 16.9671 12.0001 19.009C13.7177 16.9671 14.687 14.4631 14.7499 11.8622C14.687 9.26137 13.7177 6.75738 12.0001 4.71546C10.2825 6.75738 9.31312 9.26137 9.25029 11.8622ZM12.0001 3.40371L11.3233 2.83325C8.88057 5.30088 7.49239 8.50323 7.41695 11.8446C7.41668 11.8563 7.41668 11.8681 7.41695 11.8798C7.49239 15.2212 8.88057 18.4236 11.3233 20.8912C11.4969 21.0666 11.7426 21.1666 12.0001 21.1666C12.2576 21.1666 12.5032 21.0666 12.6769 20.8912C15.1196 18.4236 16.5078 15.2212 16.5832 11.8798C16.5835 11.8681 16.5835 11.8563 16.5832 11.8446C16.5078 8.50323 15.1196 5.30088 12.6769 2.83325L12.0001 3.40371Z" fill="black"></path></svg> <i> Colombia $ </i> <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.59 0.590088L6 5.17009L1.41 0.590088L0 2.00009L6 8.00009L12 2.00009L10.59 0.590088Z" fill="black"></path></svg></span></li><li class="header__access_link signup  o">Ingresar</li><div class="button-component black-button" style={{
+                transition: "all 0.25s ease 0s",
+                background: "rgb(0, 0, 0)",
+                color: "rgb(255, 255, 255)",
+                border: "2px solid rgb(0, 0, 0)",
+                boxShadow: "rgba(0, 0, 0, 0.1) 0px 4.5122px 6.76829px; width: 236px"
+            }}><a href="/clase-gratis?utm_source=web&amp;utm_medium=navbar" target="_self" 
+            style={{
+                display: "flex",
+                alignItems: "center"
+            }}><span class="icon-right">Prueba una clase gratis</span></a></div></ul></div></header>
+    )
+}
+
+export default Header
