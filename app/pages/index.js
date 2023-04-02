@@ -2,7 +2,7 @@ import ListCard from '../components/ListCard'
 
 export const getStaticProps = async () => {
   const data = await fetch(
-      'http://localhost:8000/api/courses/',
+      process.env.ALL_COURSES_URL,
       {
           method: 'get'
       }
