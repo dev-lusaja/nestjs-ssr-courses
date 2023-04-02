@@ -4,3 +4,4 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+module.exports = { images: { domains: ['ctc-web-statics-prod.s3.amazonaws.com'], formats: ['image/webp'], }, }

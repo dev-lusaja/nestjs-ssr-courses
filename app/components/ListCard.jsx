@@ -6,7 +6,7 @@ const ListCard = ({ courses }) => {
     let card_list = []
 
     courses.forEach((course, index) => {
-        card_list.push(<Card course={course}/>)
+        card_list.push(<Card key={index} course={course}/>)
     })
 
     return (

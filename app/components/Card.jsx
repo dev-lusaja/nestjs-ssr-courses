@@ -1,13 +1,16 @@
 import styles from '../styles/Card.module.css'
 import * as React from 'react'
+import Image from 'next/image'
 
 const Card = ({course}) => {
     return (
         <div className={[styles["card-course"], styles["card-course-pointer"]].join(" ")}>
             <div className={styles["card-course-image"]}>
                 <span className={styles["card-lazy-load-image-background-blur"]}>
-                    <img alt={course.name}
+                    <Image alt={course.name}
                     src={course.image}
+                    width="640"
+                    height="200"
                     />
                 </span>
             </div>
